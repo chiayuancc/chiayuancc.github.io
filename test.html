@@ -1,370 +1,58 @@
-<!doctype html>
-<html>
-	<head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Brian Chang</title>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>wedding_card | 20200517_weddingCard</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="wedding_card" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://archung.github.io/20200517_weddingCard/" />
+<meta property="og:url" content="https://archung.github.io/20200517_weddingCard/" />
+<meta property="og:site_name" content="20200517_weddingCard" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"wedding_card","url":"https://archung.github.io/20200517_weddingCard/","name":"20200517_weddingCard","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="/20200517_weddingCard/assets/css/style.css?v=f29a25bdae4c5137ce967a9cd40b1d82ca78f039">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
 
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px;
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
-}
-
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
-}
-
-	</style>
-
-	</head>
-	<body>
-
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Brian Chang
-					</h1>
-					<h2>
-						Software Development Engineer in Test
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
-
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">chiayuancc@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">0975065015</div>
-			</div>
-			</div>
-		</div>
-	</section>
-<!-- 	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Passionate about software development and willing to research and improve program quality</p>
-			<p>Excellent communication, collaboration, and analytical skills</p>
-			<p>Highly motivated,  can work  related work  independently</p>
-		</div>
-	</section> -->
-
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-
-		<div class="col-sm-14">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Peloton Interactive, Inc.</span>
-					<span class="date">
-						2019-12-16 — present
-					</span>
-				</h4>
-				<div class="position">
-					Software Development Engineer in Test
-				</div>
-				<div class="summary">
-					<p></p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">wait for update</li>
+      <h1><a href="https://archung.github.io/20200517_weddingCard/">20200517_weddingCard</a></h1>
 
 
-				</ul>
-			</div>
-			</div>
-		</div>
-		<br>
-			<div class="col-sm-14">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Mattel, Inc. - BabyTree, Inc.</span>
-					<span class="date">
-						2016-12-08 — 2019-11-22
-					</span>
-				</h4>
-				<div class="position">
-					Test Automation Engineer
-				</div>
-				<div class="summary">
-					<p></p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Create and maintain test schedules for all assigned projects and ensure delivery</li>
-					<li class="bullet">QA resource management</li>
-                    <li class="bullet">Mock server for testing using Python Flask</li>
-                    <li class="bullet">Experienced in backend RESTful API test</li>
-                    <li class="bullet">Automatically store test data using Google Sheet api and present a test report using Google Data Studio</li>
-                    <li class="bullet">Auto create/read issues via Jira api</li>
-                    <li class="bullet">Experience running Agile/Scrum software development process</li>
-                    <li class="bullet">Understand the wireframe and modify the testcases</li>
-                    <li class="bullet">Seek for opportunities to improve testing efficiency and quality
-                    <li class="bullet">Build, use, and maintain automated testing frameworks ( RobotFramework )
-                    <li class="bullet">Using Selenium to preform web front-end automation testing</li>
-                    <li class="bullet">Using Appium to preform iOS &amp; Android APP end-to-end automation testing</li>
-                    <li class="bullet">Experience with bug tracking tools ( Jira / Mantis )
-                    <li class="bullet">Familiar with some CI framework ( Gitlab CI / Jenkins )
-                    <li class="bullet">Verify that the api response/request parameter is correct through the proxy server and modify the parameters to test the front-end UI if necessary</li>
+      <h1 id="wedding_card">wedding_card</h1>
 
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+<h2 id="project-setup">Project setup</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install
+</code></pre></div></div>
 
+<h3 id="compiles-and-hot-reloads-for-development">Compiles and hot-reloads for development</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run serve
+</code></pre></div></div>
 
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Tamkang University</span>
-					<span class="date">
-						2011-09-01 — 2016-06-01
-					</span>
-				</h4>
-				<div class="area">
-					Electrical  Engineering
-				</div>
-				<div class="studyType">
+<h3 id="compiles-and-minifies-for-production">Compiles and minifies for production</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run build
+</code></pre></div></div>
 
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+<h3 id="lints-and-fixes-files">Lints and fixes files</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run lint
+</code></pre></div></div>
+
+<h3 id="customize-configuration">Customize configuration</h3>
+<p>See <a href="https://cli.vuejs.org/config/">Configuration Reference</a>.
+# 20200517_weddingCard</p>
 
 
 
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<div class="name">
-					<h4>Automation</h4>
-				</div>
-				<ul class="keywords">
-					<li>RobotFramework</li>
-					<li>Python</li>
-					<li>Appium</li>
-					<li>Selenium</li>
-					<li>Gitlab CI</li>
-					<li>Jenkins</li>
-					<li>Jmeter</li>
-					<li>Whistle</li>
-					<li>Jira</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-			</div>
-			</div>
-		</div>
-	</section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
 
-
-
-
-	</div>
-
-	</body>
+  </body>
 </html>
